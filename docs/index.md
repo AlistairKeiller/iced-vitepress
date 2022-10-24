@@ -1,15 +1,16 @@
 ---
 layout: home
-
 title: Homepage
 
 hero:
   name: Iced
-  text: Reliable cross-platform GUI toolkit for Rust.
+  text: The reliable GUI toolkit.
+  tagline: A cross-platform GUI library for Rust, inspired by Elm.
+  image: /logo.svg
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/getting-started
+      link: /guide/tutorial/overview
     - theme: alt
       text: View on GitHub
       link: https://github.com/iced-rs/iced

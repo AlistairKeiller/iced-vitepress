@@ -11,22 +11,28 @@ export default defineConfig({
   ],
   themeConfig: {
     nav: [
-      { text: "Guide", link: "/guide/getting-started", activeMatch: "/guide/" },
+      {
+        text: "Guide",
+        link: "/guide/tutorial/overview",
+        activeMatch: "/guide/",
+      },
       { text: "Docs", link: "https://docs.rs/iced/" },
     ],
     sidebar: [
       {
-        text: "Introduction",
+        text: "Tutorial",
         items: [
-          { text: "What is Iced?", link: "/guide/getting-started" },
-          { text: "Getting Started", link: "/guide/what-is-iced" },
+          { text: "Overview", link: "/guide/tutorial/overview" },
+          { text: "Setup", link: "/guide/tutorial/setup" },
+          { text: "Counter", link: "/guide/tutorial/counter" },
         ],
       },
     ],
     editLink: {
-      pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
+      pattern:
+        "https://github.com/AlistairKeiller/iced-vitepress/edit/master/docs/:path",
       text: "Edit this page on GitHub",
-    }, // TODO: replace with repo
+    },
     socialLinks: [
       { icon: "discord", link: "https://discord.gg/3xZJ65GAhd" },
       { icon: "github", link: "https://github.com/iced-rs/iced" },
