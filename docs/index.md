@@ -4,7 +4,7 @@ title: Homepage
 
 hero:
   name: Iced
-  text: The reliable GUI toolkit.
+  text: The reliable GUI library
   tagline: A cross-platform GUI library for Rust, inspired by Elm.
   image: /logo.svg
   actions:
