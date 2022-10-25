@@ -16,7 +16,7 @@ hero:
       link: https://github.com/iced-rs/iced
 
 features:
-  - title: "Easy-to-use"
+  - title: Easy-to-use
     details: Batteries-included API to get started quickly and create your own widgets easily.
   - title: Type-safe
     details: Iced uses reactive programming model to ensure your UI is meaningful.

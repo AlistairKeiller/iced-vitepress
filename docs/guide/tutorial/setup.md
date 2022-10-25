@@ -6,7 +6,7 @@ This section will guide you through the process of setting up an application wit
 
 After you have [installed cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html), create a new project with `cargo`:
 
-```bash
+```sh
 cargo new my_app
 ```
 
